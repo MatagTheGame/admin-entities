@@ -6,7 +6,7 @@
 
   <artifactId>admin-entities</artifactId>
   <groupId>com.matag</groupId>
-  <version>1.0.2-RELEASE</version>
+  <version>1.0.3-RELEASE</version>
   <packaging>jar</packaging>
 
   <properties>
