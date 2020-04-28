@@ -6,7 +6,7 @@
 
   <artifactId>admin-entities</artifactId>
   <groupId>com.matag</groupId>
-  <version>1.0.3-RELEASE</version>
+  <version>1.1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <properties>
@@ -28,7 +28,7 @@
     <dependency>
       <groupId>com.matag</groupId>
       <artifactId>cards</artifactId>
-      <version>1.0.2-RELEASE</version>
+      <version>1.1.0-SNAPSHOT</version>
     </dependency>
 
     <dependency>
