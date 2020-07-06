@@ -11,7 +11,7 @@ import lombok.Value;
 @JsonDeserialize(builder = FinishGameRequest.FinishGameRequestBuilder.class)
 @Builder(toBuilder = true)
 public class FinishGameRequest {
-  private final String winnerSessionId;
+  String winnerSessionId;
 
   @JsonPOJOBuilder(withPrefix = "")
   public static class FinishGameRequestBuilder {

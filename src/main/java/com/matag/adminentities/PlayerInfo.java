@@ -11,7 +11,7 @@ import lombok.Value;
 @JsonDeserialize(builder = PlayerInfo.PlayerInfoBuilder.class)
 @Builder(toBuilder = true)
 public class PlayerInfo {
-  private final String playerName;
+  String playerName;
 
   @JsonPOJOBuilder(withPrefix = "")
   public static class PlayerInfoBuilder {

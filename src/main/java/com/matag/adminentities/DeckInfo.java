@@ -14,7 +14,7 @@ import java.util.Set;
 @JsonDeserialize(builder = DeckInfo.DeckInfoBuilder.class)
 @Builder(toBuilder = true)
 public class DeckInfo {
-  private final Set<Color> randomColors;
+  Set<Color> randomColors;
 
   @JsonPOJOBuilder(withPrefix = "")
   public static class DeckInfoBuilder {
